@@ -1,0 +1,27 @@
+    1  git config --global user.name "enginozonurr"
+    2  git config --global user.email "onurenginoz@hotmail.com
+    3  git clone https://github.com/enginozonurr/HW_10.git
+    4  git config --global --list
+    5  git status
+    6  git add .
+    7  git commit -m "gitignore dosyasına eklemeler yapıldı"
+    8  git push
+    9  git status
+   10  git add . 
+   11  git commit -m "main test dosyası eklendi"
+   12  git push
+   13  git branch develop
+   14  git checkout develop
+   15  git status
+   16  git add .
+   17  git commit -m "test dosyaları eklendi"
+   18  git push
+   19  git push --set-upstream origin develop
+   20  git status
+   21  git add .
+   22  git commit -m "test scrpitleri eklendi"
+   23  git push
+   24  git checkout main
+   25  git merge develop
+   26  git log
+   27  history > command_list.csv
